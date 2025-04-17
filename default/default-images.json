@@ -1,0 +1,482 @@
+[
+  {
+    "category": "avatar",
+    "ratio": "square",
+    "filename": "default-avatar-square-transparent.png",
+    "path": "/assets/images/default-avatar-square-transparent.png"
+  },
+  {
+    "category": "avatar",
+    "ratio": "4x3",
+    "filename": "default-avatar-4x3-transparent.png",
+    "path": "/assets/images/default-avatar-4x3-transparent.png"
+  },
+  {
+    "category": "avatar",
+    "ratio": "16x9",
+    "filename": "default-avatar-16x9-transparent.png",
+    "path": "/assets/images/default-avatar-16x9-transparent.png"
+  },
+  {
+    "category": "avatar",
+    "ratio": "portrait",
+    "filename": "default-avatar-portrait-transparent.png",
+    "path": "/assets/images/default-avatar-portrait-transparent.png"
+  },
+  {
+    "category": "thumbnail",
+    "ratio": "square",
+    "filename": "default-thumbnail-square-transparent.png",
+    "path": "/assets/images/default-thumbnail-square-transparent.png"
+  },
+  {
+    "category": "thumbnail",
+    "ratio": "4x3",
+    "filename": "default-thumbnail-4x3-transparent.png",
+    "path": "/assets/images/default-thumbnail-4x3-transparent.png"
+  },
+  {
+    "category": "thumbnail",
+    "ratio": "16x9",
+    "filename": "default-thumbnail-16x9-transparent.png",
+    "path": "/assets/images/default-thumbnail-16x9-transparent.png"
+  },
+  {
+    "category": "thumbnail",
+    "ratio": "portrait",
+    "filename": "default-thumbnail-portrait-transparent.png",
+    "path": "/assets/images/default-thumbnail-portrait-transparent.png"
+  },
+  {
+    "category": "content",
+    "ratio": "square",
+    "filename": "default-content-square-transparent.png",
+    "path": "/assets/images/default-content-square-transparent.png"
+  },
+  {
+    "category": "content",
+    "ratio": "4x3",
+    "filename": "default-content-4x3-transparent.png",
+    "path": "/assets/images/default-content-4x3-transparent.png"
+  },
+  {
+    "category": "content",
+    "ratio": "16x9",
+    "filename": "default-content-16x9-transparent.png",
+    "path": "/assets/images/default-content-16x9-transparent.png"
+  },
+  {
+    "category": "content",
+    "ratio": "portrait",
+    "filename": "default-content-portrait-transparent.png",
+    "path": "/assets/images/default-content-portrait-transparent.png"
+  },
+  {
+    "category": "form",
+    "ratio": "square",
+    "filename": "default-form-square-transparent.png",
+    "path": "/assets/images/default-form-square-transparent.png"
+  },
+  {
+    "category": "form",
+    "ratio": "4x3",
+    "filename": "default-form-4x3-transparent.png",
+    "path": "/assets/images/default-form-4x3-transparent.png"
+  },
+  {
+    "category": "form",
+    "ratio": "16x9",
+    "filename": "default-form-16x9-transparent.png",
+    "path": "/assets/images/default-form-16x9-transparent.png"
+  },
+  {
+    "category": "form",
+    "ratio": "portrait",
+    "filename": "default-form-portrait-transparent.png",
+    "path": "/assets/images/default-form-portrait-transparent.png"
+  },
+  {
+    "category": "error",
+    "ratio": "square",
+    "filename": "default-error-square-transparent.png",
+    "path": "/assets/images/default-error-square-transparent.png"
+  },
+  {
+    "category": "error",
+    "ratio": "4x3",
+    "filename": "default-error-4x3-transparent.png",
+    "path": "/assets/images/default-error-4x3-transparent.png"
+  },
+  {
+    "category": "error",
+    "ratio": "16x9",
+    "filename": "default-error-16x9-transparent.png",
+    "path": "/assets/images/default-error-16x9-transparent.png"
+  },
+  {
+    "category": "error",
+    "ratio": "portrait",
+    "filename": "default-error-portrait-transparent.png",
+    "path": "/assets/images/default-error-portrait-transparent.png"
+  },
+  {
+    "category": "empty",
+    "ratio": "square",
+    "filename": "default-empty-square-transparent.png",
+    "path": "/assets/images/default-empty-square-transparent.png"
+  },
+  {
+    "category": "empty",
+    "ratio": "4x3",
+    "filename": "default-empty-4x3-transparent.png",
+    "path": "/assets/images/default-empty-4x3-transparent.png"
+  },
+  {
+    "category": "empty",
+    "ratio": "16x9",
+    "filename": "default-empty-16x9-transparent.png",
+    "path": "/assets/images/default-empty-16x9-transparent.png"
+  },
+  {
+    "category": "empty",
+    "ratio": "portrait",
+    "filename": "default-empty-portrait-transparent.png",
+    "path": "/assets/images/default-empty-portrait-transparent.png"
+  },
+  {
+    "category": "not-found",
+    "ratio": "square",
+    "filename": "default-not-found-square-transparent.png",
+    "path": "/assets/images/default-not-found-square-transparent.png"
+  },
+  {
+    "category": "not-found",
+    "ratio": "4x3",
+    "filename": "default-not-found-4x3-transparent.png",
+    "path": "/assets/images/default-not-found-4x3-transparent.png"
+  },
+  {
+    "category": "not-found",
+    "ratio": "16x9",
+    "filename": "default-not-found-16x9-transparent.png",
+    "path": "/assets/images/default-not-found-16x9-transparent.png"
+  },
+  {
+    "category": "not-found",
+    "ratio": "portrait",
+    "filename": "default-not-found-portrait-transparent.png",
+    "path": "/assets/images/default-not-found-portrait-transparent.png"
+  },
+  {
+    "category": "login",
+    "ratio": "square",
+    "filename": "default-login-square-transparent.png",
+    "path": "/assets/images/default-login-square-transparent.png"
+  },
+  {
+    "category": "login",
+    "ratio": "4x3",
+    "filename": "default-login-4x3-transparent.png",
+    "path": "/assets/images/default-login-4x3-transparent.png"
+  },
+  {
+    "category": "login",
+    "ratio": "16x9",
+    "filename": "default-login-16x9-transparent.png",
+    "path": "/assets/images/default-login-16x9-transparent.png"
+  },
+  {
+    "category": "login",
+    "ratio": "portrait",
+    "filename": "default-login-portrait-transparent.png",
+    "path": "/assets/images/default-login-portrait-transparent.png"
+  },
+  {
+    "category": "splash",
+    "ratio": "square",
+    "filename": "default-splash-square-transparent.png",
+    "path": "/assets/images/default-splash-square-transparent.png"
+  },
+  {
+    "category": "splash",
+    "ratio": "4x3",
+    "filename": "default-splash-4x3-transparent.png",
+    "path": "/assets/images/default-splash-4x3-transparent.png"
+  },
+  {
+    "category": "splash",
+    "ratio": "16x9",
+    "filename": "default-splash-16x9-transparent.png",
+    "path": "/assets/images/default-splash-16x9-transparent.png"
+  },
+  {
+    "category": "splash",
+    "ratio": "portrait",
+    "filename": "default-splash-portrait-transparent.png",
+    "path": "/assets/images/default-splash-portrait-transparent.png"
+  },
+  {
+    "category": "lock",
+    "ratio": "square",
+    "filename": "default-lock-square-transparent.png",
+    "path": "/assets/images/default-lock-square-transparent.png"
+  },
+  {
+    "category": "lock",
+    "ratio": "4x3",
+    "filename": "default-lock-4x3-transparent.png",
+    "path": "/assets/images/default-lock-4x3-transparent.png"
+  },
+  {
+    "category": "lock",
+    "ratio": "16x9",
+    "filename": "default-lock-16x9-transparent.png",
+    "path": "/assets/images/default-lock-16x9-transparent.png"
+  },
+  {
+    "category": "lock",
+    "ratio": "portrait",
+    "filename": "default-lock-portrait-transparent.png",
+    "path": "/assets/images/default-lock-portrait-transparent.png"
+  },
+  {
+    "category": "user",
+    "ratio": "square",
+    "filename": "default-user-square-transparent.png",
+    "path": "/assets/images/default-user-square-transparent.png"
+  },
+  {
+    "category": "user",
+    "ratio": "4x3",
+    "filename": "default-user-4x3-transparent.png",
+    "path": "/assets/images/default-user-4x3-transparent.png"
+  },
+  {
+    "category": "user",
+    "ratio": "16x9",
+    "filename": "default-user-16x9-transparent.png",
+    "path": "/assets/images/default-user-16x9-transparent.png"
+  },
+  {
+    "category": "user",
+    "ratio": "portrait",
+    "filename": "default-user-portrait-transparent.png",
+    "path": "/assets/images/default-user-portrait-transparent.png"
+  },
+  {
+    "category": "guest",
+    "ratio": "square",
+    "filename": "default-guest-square-transparent.png",
+    "path": "/assets/images/default-guest-square-transparent.png"
+  },
+  {
+    "category": "guest",
+    "ratio": "4x3",
+    "filename": "default-guest-4x3-transparent.png",
+    "path": "/assets/images/default-guest-4x3-transparent.png"
+  },
+  {
+    "category": "guest",
+    "ratio": "16x9",
+    "filename": "default-guest-16x9-transparent.png",
+    "path": "/assets/images/default-guest-16x9-transparent.png"
+  },
+  {
+    "category": "guest",
+    "ratio": "portrait",
+    "filename": "default-guest-portrait-transparent.png",
+    "path": "/assets/images/default-guest-portrait-transparent.png"
+  },
+  {
+    "category": "upload",
+    "ratio": "square",
+    "filename": "default-upload-square-transparent.png",
+    "path": "/assets/images/default-upload-square-transparent.png"
+  },
+  {
+    "category": "upload",
+    "ratio": "4x3",
+    "filename": "default-upload-4x3-transparent.png",
+    "path": "/assets/images/default-upload-4x3-transparent.png"
+  },
+  {
+    "category": "upload",
+    "ratio": "16x9",
+    "filename": "default-upload-16x9-transparent.png",
+    "path": "/assets/images/default-upload-16x9-transparent.png"
+  },
+  {
+    "category": "upload",
+    "ratio": "portrait",
+    "filename": "default-upload-portrait-transparent.png",
+    "path": "/assets/images/default-upload-portrait-transparent.png"
+  },
+  {
+    "category": "fallback",
+    "ratio": "square",
+    "filename": "default-fallback-square-transparent.png",
+    "path": "/assets/images/default-fallback-square-transparent.png"
+  },
+  {
+    "category": "fallback",
+    "ratio": "4x3",
+    "filename": "default-fallback-4x3-transparent.png",
+    "path": "/assets/images/default-fallback-4x3-transparent.png"
+  },
+  {
+    "category": "fallback",
+    "ratio": "16x9",
+    "filename": "default-fallback-16x9-transparent.png",
+    "path": "/assets/images/default-fallback-16x9-transparent.png"
+  },
+  {
+    "category": "fallback",
+    "ratio": "portrait",
+    "filename": "default-fallback-portrait-transparent.png",
+    "path": "/assets/images/default-fallback-portrait-transparent.png"
+  },
+  {
+    "category": "preview",
+    "ratio": "square",
+    "filename": "default-preview-square-transparent.png",
+    "path": "/assets/images/default-preview-square-transparent.png"
+  },
+  {
+    "category": "preview",
+    "ratio": "4x3",
+    "filename": "default-preview-4x3-transparent.png",
+    "path": "/assets/images/default-preview-4x3-transparent.png"
+  },
+  {
+    "category": "preview",
+    "ratio": "16x9",
+    "filename": "default-preview-16x9-transparent.png",
+    "path": "/assets/images/default-preview-16x9-transparent.png"
+  },
+  {
+    "category": "preview",
+    "ratio": "portrait",
+    "filename": "default-preview-portrait-transparent.png",
+    "path": "/assets/images/default-preview-portrait-transparent.png"
+  },
+  {
+    "category": "placeholder",
+    "ratio": "square",
+    "filename": "default-placeholder-square-transparent.png",
+    "path": "/assets/images/default-placeholder-square-transparent.png"
+  },
+  {
+    "category": "placeholder",
+    "ratio": "4x3",
+    "filename": "default-placeholder-4x3-transparent.png",
+    "path": "/assets/images/default-placeholder-4x3-transparent.png"
+  },
+  {
+    "category": "placeholder",
+    "ratio": "16x9",
+    "filename": "default-placeholder-16x9-transparent.png",
+    "path": "/assets/images/default-placeholder-16x9-transparent.png"
+  },
+  {
+    "category": "placeholder",
+    "ratio": "portrait",
+    "filename": "default-placeholder-portrait-transparent.png",
+    "path": "/assets/images/default-placeholder-portrait-transparent.png"
+  },
+  {
+    "category": "illustration",
+    "ratio": "square",
+    "filename": "default-illustration-square-transparent.png",
+    "path": "/assets/images/default-illustration-square-transparent.png"
+  },
+  {
+    "category": "illustration",
+    "ratio": "4x3",
+    "filename": "default-illustration-4x3-transparent.png",
+    "path": "/assets/images/default-illustration-4x3-transparent.png"
+  },
+  {
+    "category": "illustration",
+    "ratio": "16x9",
+    "filename": "default-illustration-16x9-transparent.png",
+    "path": "/assets/images/default-illustration-16x9-transparent.png"
+  },
+  {
+    "category": "illustration",
+    "ratio": "portrait",
+    "filename": "default-illustration-portrait-transparent.png",
+    "path": "/assets/images/default-illustration-portrait-transparent.png"
+  },
+  {
+    "category": "banner",
+    "ratio": "square",
+    "filename": "default-banner-square-transparent.png",
+    "path": "/assets/images/default-banner-square-transparent.png"
+  },
+  {
+    "category": "banner",
+    "ratio": "4x3",
+    "filename": "default-banner-4x3-transparent.png",
+    "path": "/assets/images/default-banner-4x3-transparent.png"
+  },
+  {
+    "category": "banner",
+    "ratio": "16x9",
+    "filename": "default-banner-16x9-transparent.png",
+    "path": "/assets/images/default-banner-16x9-transparent.png"
+  },
+  {
+    "category": "banner",
+    "ratio": "portrait",
+    "filename": "default-banner-portrait-transparent.png",
+    "path": "/assets/images/default-banner-portrait-transparent.png"
+  },
+  {
+    "category": "cover",
+    "ratio": "square",
+    "filename": "default-cover-square-transparent.png",
+    "path": "/assets/images/default-cover-square-transparent.png"
+  },
+  {
+    "category": "cover",
+    "ratio": "4x3",
+    "filename": "default-cover-4x3-transparent.png",
+    "path": "/assets/images/default-cover-4x3-transparent.png"
+  },
+  {
+    "category": "cover",
+    "ratio": "16x9",
+    "filename": "default-cover-16x9-transparent.png",
+    "path": "/assets/images/default-cover-16x9-transparent.png"
+  },
+  {
+    "category": "cover",
+    "ratio": "portrait",
+    "filename": "default-cover-portrait-transparent.png",
+    "path": "/assets/images/default-cover-portrait-transparent.png"
+  },
+  {
+    "category": "card",
+    "ratio": "square",
+    "filename": "default-card-square-transparent.png",
+    "path": "/assets/images/default-card-square-transparent.png"
+  },
+  {
+    "category": "card",
+    "ratio": "4x3",
+    "filename": "default-card-4x3-transparent.png",
+    "path": "/assets/images/default-card-4x3-transparent.png"
+  },
+  {
+    "category": "card",
+    "ratio": "16x9",
+    "filename": "default-card-16x9-transparent.png",
+    "path": "/assets/images/default-card-16x9-transparent.png"
+  },
+  {
+    "category": "card",
+    "ratio": "portrait",
+    "filename": "default-card-portrait-transparent.png",
+    "path": "/assets/images/default-card-portrait-transparent.png"
+  }
+]
