@@ -11,7 +11,7 @@
   <!-- 🎨 Swiper CSS (CDN) -->
   <link
     rel="stylesheet"
-    href="assets/css/swiper-bundle.min.css"
+    href="assets"
   />
 
   <!-- 🎨 Custom Style -->
@@ -20,25 +20,15 @@
 
 <body>
 
-  <img src="https://link-salah.jpg" 
-  data-fallback="content-16x9" 
-  alt="Judul A">
+    <div class="swiper">
+      <div class="swiper-wrapper" id="swiperContent"></div>
+      <div class="swiper-pagination"></div> <!-- ⬅️ Tambah ini -->
+    </div>
+    <div id="loading">Memuat konten...</div>
+  
+    <script src="config.global.js"></script>
+    <script src="viewer.js"></script>
+    <script src="swipe.js"></script>
 
-  <!-- 🧭 SWIPE WRAPPER -->
-  <div class="swiper">
-    <div class="swiper-wrapper" id="swiperContent"></div>
-  </div>
-
-  <!-- 🔄 Loading State -->
-  <div id="loading">Memuat konten...</div>
-
-  <!-- 📦 Swiper Bundle JS (CDN) -->
-  <script src="assets/js/swiper-bundle.min.js"></script>
-
-  <!-- ⚙️ Konfigurasi Global -->
-  <script src="config.global.js"></script>
-
-  <!-- 🚀 Viewer Logic -->
-  <script src="viewer.js"></script>
 </body>
 </html>

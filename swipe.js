@@ -1,13 +1,12 @@
-// ✅ Jalankan script saat DOM sudah siap
+// File: swipe.js
+// 🚀 Jalankan saat DOM siap
 document.addEventListener("DOMContentLoaded", () => {
-  // 🧠 Ambil elemen kontainer swiper
   const gallery = document.getElementById("swiperContent");
-  if (!gallery) return console.warn("Element swiperContent tidak ditemukan");
+  if (!gallery) return console.warn("❗ Elemen #swiperContent tidak ditemukan");
 
-  // 🌐 Ambil host domain secara dinamis
   const host = window.location.origin;
 
-  // 💬 Tampilkan splash screen dengan quote acak
+  // ✨ Splash quote acak saat awal dibuka
   const quotes = [
     "“Ilmu itu tak cukup dibaca — harus dirasa.”",
     "“Swipe boleh, tapi jangan hidup lo diswipe orang lain.”",
@@ -16,6 +15,7 @@ document.addEventListener("DOMContentLoaded", () => {
     "“Kalo lo nggak paham hidup lo, ya jangan swipe orang lain.”"
   ];
   const randomQuote = quotes[Math.floor(Math.random() * quotes.length)];
+
   const splashSlide = document.createElement("div");
   splashSlide.className = "swiper-slide splash";
   splashSlide.innerHTML = `
@@ -26,7 +26,7 @@ document.addEventListener("DOMContentLoaded", () => {
   `;
   gallery.appendChild(splashSlide);
 
-  // 📦 Data dummy konten edukatif
+  // 📦 Dummy konten
   const data = [
     {
       judul: "Masa Depan Kecerdasan Buatan",
@@ -41,18 +41,21 @@ document.addEventListener("DOMContentLoaded", () => {
     {
       judul: "Robotika dalam Kehidupan Sehari-hari",
       kategori: "Robot bantu lo kerja. Tapi siapa yang bantu lo tetap jadi manusia?",
-      gambar: `${host}/assets/1.avi` // Uji error fallback
+      gambar: `${host}/assets/1.avi` // 🧪 Test fallback
     }
   ];
 
-  // 🔄 Render setiap item jadi slide
+  // 🎨 Buat setiap slide dari data
   data.forEach(item => {
     const slide = document.createElement("div");
     slide.className = "swiper-slide";
-
     slide.innerHTML = `
-      <img src="${item.gambar}" alt="${item.judul}" 
-           onerror="this.onerror=null; this.src='assets/images/default/default-thumbnail-16x9-transparent.png';" />
+      <img 
+        src="${item.gambar}" 
+        alt="${item.judul}"
+        data-fallback="content-16x9"
+        loading="lazy"
+      />
       <div class="info-box">
         <h3>${item.judul}</h3>
         <p>${item.kategori}</p>
@@ -61,11 +64,10 @@ document.addEventListener("DOMContentLoaded", () => {
         </div>
       </div>
     `;
-
     gallery.appendChild(slide);
   });
 
-  // 🚀 Inisialisasi Swiper (harus sudah include Swiper JS via CDN)
+  // 🧭 Inisialisasi Swiper
   const swiper = new Swiper(".swiper", {
     direction: "vertical",
     loop: false,
@@ -75,8 +77,13 @@ document.addEventListener("DOMContentLoaded", () => {
     },
     on: {
       slideChange: () => {
-        console.log("Slide aktif:", swiper.activeIndex);
+        console.log("📍 Slide aktif:", swiper.activeIndex);
       }
     }
   });
+
+  // ✅ Aktifkan fallback image dari viewer.js
+  if (typeof applyFallbackImages === "function") {
+    applyFallbackImages();
+  }
 });
