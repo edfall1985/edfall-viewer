@@ -1,7 +1,32 @@
+// ✅ Jalankan script saat DOM sudah siap
 document.addEventListener("DOMContentLoaded", () => {
-  const gallery = document.getElementById("gallery");
+  // 🧠 Ambil elemen kontainer swiper
+  const gallery = document.getElementById("swiperContent");
+  if (!gallery) return console.warn("Element swiperContent tidak ditemukan");
+
+  // 🌐 Ambil host domain secara dinamis
   const host = window.location.origin;
 
+  // 💬 Tampilkan splash screen dengan quote acak
+  const quotes = [
+    "“Ilmu itu tak cukup dibaca — harus dirasa.”",
+    "“Swipe boleh, tapi jangan hidup lo diswipe orang lain.”",
+    "“Gagal bukan akhir, kecuali lo berhenti belajar.”",
+    "“Konten baik itu bukan viral, tapi bermanfaat.”",
+    "“Kalo lo nggak paham hidup lo, ya jangan swipe orang lain.”"
+  ];
+  const randomQuote = quotes[Math.floor(Math.random() * quotes.length)];
+  const splashSlide = document.createElement("div");
+  splashSlide.className = "swiper-slide splash";
+  splashSlide.innerHTML = `
+    <div class="splash-screen">
+      <h2>${randomQuote}</h2>
+      <p class="splash-meta">~ Edfall Viewer</p>
+    </div>
+  `;
+  gallery.appendChild(splashSlide);
+
+  // 📦 Data dummy konten edukatif
   const data = [
     {
       judul: "Masa Depan Kecerdasan Buatan",
@@ -16,42 +41,42 @@ document.addEventListener("DOMContentLoaded", () => {
     {
       judul: "Robotika dalam Kehidupan Sehari-hari",
       kategori: "Robot bantu lo kerja. Tapi siapa yang bantu lo tetap jadi manusia?",
-      gambar: `${host}/assets/1.avif`
+      gambar: `${host}/assets/1.avi` // Uji error fallback
     }
   ];
 
+  // 🔄 Render setiap item jadi slide
   data.forEach(item => {
     const slide = document.createElement("div");
     slide.className = "swiper-slide";
+
     slide.innerHTML = `
-      <img src="${item.gambar}" alt="${item.judul}">
+      <img src="${item.gambar}" alt="${item.judul}" 
+           onerror="this.onerror=null; this.src='assets/images/default/default-thumbnail-16x9-transparent.png';" />
       <div class="info-box">
         <h3>${item.judul}</h3>
         <p>${item.kategori}</p>
         <div class="actions">
           <button class="like-btn">❤️</button>
-          <button class="share-btn">🔗</button>
         </div>
       </div>
     `;
+
     gallery.appendChild(slide);
   });
 
-  new Swiper('.swiper-container', {
-    direction: 'vertical',
-    slidesPerView: 1,
-    spaceBetween: 0,
-    mousewheel: true,
-    keyboard: {
-      enabled: true,
+  // 🚀 Inisialisasi Swiper (harus sudah include Swiper JS via CDN)
+  const swiper = new Swiper(".swiper", {
+    direction: "vertical",
+    loop: false,
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true
     },
-  });
-
-  document.addEventListener("click", (e) => {
-    if (e.target.classList.contains("like-btn")) {
-      alert("Liked!");
-    } else if (e.target.classList.contains("share-btn")) {
-      alert("Share link copied!");
+    on: {
+      slideChange: () => {
+        console.log("Slide aktif:", swiper.activeIndex);
+      }
     }
   });
 });
